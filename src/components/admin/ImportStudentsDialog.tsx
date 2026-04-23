@@ -31,7 +31,7 @@ interface Props {
   plans: Plan[]
 }
 
-const DEFAULT_PASSWORD = "rheb2024"
+const DEFAULT_PASSWORD = "gymos2024"
 
 function norm(s: string) {
   return s.toLowerCase().trim()

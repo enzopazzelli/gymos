@@ -254,7 +254,7 @@ export async function importStudents(
 
     if (existing.length > 0) { skipped++; continue }
 
-    const hashedPassword = await bcrypt.hash(row.password || "rheb2024", 10)
+    const hashedPassword = await bcrypt.hash(row.password || "gymos2024", 10)
 
     const [newUser] = await db
       .insert(users)

@@ -198,6 +198,7 @@ export const attendance = pgTable("attendance", {
     .$defaultFn(() => crypto.randomUUID()),
   bookingId: text("booking_id")
     .notNull()
+    .unique()
     .references(() => bookings.id, { onDelete: "cascade" }),
   present: boolean("present").notNull().default(false),
   registeredBy: text("registered_by").references(() => users.id),

@@ -6,7 +6,6 @@ import { useRouter } from "next/navigation"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
-import Image from "next/image"
 
 export default function LoginPage() {
   const [email, setEmail] = useState("")
@@ -40,7 +39,7 @@ export default function LoginPage() {
       <div className="w-full max-w-sm space-y-8">
 
         <div className="flex flex-col items-center gap-3">
-          <Image src="/rheb.png" alt="Rheb" width={140} height={60} className="object-contain" priority />
+          <span className="text-4xl font-bold tracking-tight">GymOS</span>
           <p className="text-sm text-muted-foreground">Tu entrenamiento, todo en un lugar.</p>
         </div>
 

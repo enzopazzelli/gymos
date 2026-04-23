@@ -6,18 +6,18 @@ import "./globals.css"
 const geist = Geist({ subsets: ["latin"], variable: "--font-geist" })
 
 export const metadata: Metadata = {
-  title: "Rheb App",
+  title: "GymOS",
   description: "Gestión integral de entrenamiento",
   manifest: "/manifest.json",
   appleWebApp: {
     capable: true,
     statusBarStyle: "default",
-    title: "Rheb",
+    title: "GymOS",
   },
 }
 
 export const viewport: Viewport = {
-  themeColor: "#00664e",
+  themeColor: "#2563eb",
   width: "device-width",
   initialScale: 1,
   maximumScale: 1,

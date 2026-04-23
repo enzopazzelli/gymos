@@ -1,11 +1,11 @@
 {
-  "name": "Rheb App",
-  "short_name": "Rheb",
+  "name": "GymOS",
+  "short_name": "GymOS",
   "description": "Gestión integral de entrenamiento",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#00664e",
+  "theme_color": "#2563eb",
   "orientation": "portrait",
   "icons": [
     {

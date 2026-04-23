@@ -5,7 +5,7 @@ import { eq } from "drizzle-orm"
 
 if (process.env.NEXT_PUBLIC_VAPID_PUBLIC_KEY && process.env.VAPID_PRIVATE_KEY) {
   webpush.setVapidDetails(
-    "mailto:admin@rheb.com",
+    "mailto:admin@gymos.app",
     process.env.NEXT_PUBLIC_VAPID_PUBLIC_KEY,
     process.env.VAPID_PRIVATE_KEY
   )

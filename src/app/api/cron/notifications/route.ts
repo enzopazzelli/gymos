@@ -15,7 +15,7 @@ import { format, addDays } from "date-fns"
 export const runtime = "nodejs"
 
 webpush.setVapidDetails(
-  `mailto:${process.env.VAPID_EMAIL ?? "admin@rheb.com"}`,
+  `mailto:${process.env.VAPID_EMAIL ?? "admin@gymos.app"}`,
   process.env.VAPID_PUBLIC_KEY!,
   process.env.VAPID_PRIVATE_KEY!,
 )
